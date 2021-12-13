@@ -1,0 +1,110 @@
+h1{
+	color: purple;
+	background-color: white;
+	font-size: 6em;
+	text-align: center;
+}
+body{
+	margin: 10px 0;
+}
+nav{
+	background-color: peachpuff;
+}
+nav ul{
+	text-align: center;
+	padding: 8px;
+}
+h2{
+	margin-bottom: 1px;
+	margin-top: 5px;-
+	font-weight: bold;
+	font-size: 3rem;
+	color: purple;
+}
+h3{
+	margin-top: 1px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	color: purple;
+}
+blockquote{
+	margin: 40px;
+	display: block;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link {
+	color: purple;
+}
+nav a:visited {
+	color: purple;
+}
+nav a:hover {
+	color: orange;
+}
+i{
+	color: purple;
+	font-size: 4em;
+}
+nav a:active {
+	color: blue;
+}
+footer{
+	text-align: center;
+	background-color: peachpuff;
+	display: block;
+}
+footer small{
+	text-align: center;
+	display: block;
+}
+.icons .fa{
+	font-size: 5em;
+	color: purple;
+}
+.home-hero{
+	background-image: url(images/header.jpg);
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+	padding: 10px 10px 10px 30px;
+}
+/*CSS without a media query--applies to all sizes unless overridden*/
+ }
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+h1{
+	font-family: 'Yuji Syuku', serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+p{
+	font-family: 'Roboto Mono', monospace;
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
+.mobile{
+	display: none;
+}
+@media only screen and (max-width: 400px) {
+	.desktop{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+}
